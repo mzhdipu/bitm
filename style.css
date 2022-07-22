@@ -1,0 +1,172 @@
+*{margin: 0;padding: 0}
+body{}
+.float_left{float: left}
+.float_right{float: right}
+.fix{overflow: hidden}
+
+/****header
+===============================*/
+header{}
+.header_wrapper{
+    background-color: #474747;
+}
+.header_wrap{
+    width:1120px;
+    margin: 0 auto;
+    display: block;
+}
+
+/******* header_left*********/
+.header_left{
+    margin-top: 25px;
+}
+.header_left > a{}
+.header_left > a > img{}
+
+/******* header_right*********/
+.header_right{
+    padding: 70px 0 70px 0;
+}
+.header_right > nav{
+}
+.header_right > nav > ul{}
+.header_right > nav > ul >li{
+    list-style: none;
+    float: left;
+}
+.header_right > nav > ul >li > a{
+    text-decoration: none;
+    color:#FFFFFF;
+    padding: 15px 20px;
+    display: block;
+    font-size: 16px;
+}
+.header_right > nav > ul >li > a:hover{
+    color:#FFEA38
+}
+/*****section1 (Bannder)
+===================================***/
+.slider{}
+.slider > img{}
+/***** section 2
+==================================****/
+.section_wrapper{
+    width: 1120px;
+}
+.section_wrapper > h2{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 47px;
+    font-size: 35px;
+}
+/******* section img 1*******/
+.section_img1{
+    margin-left: 30px;
+    margin-right: 175px;
+}
+.section_img1  > figure{
+    position: relative;
+}
+.section_img1  > figure > img{}
+.section_img1  > figure > figcaption{
+    background: #000000;
+    color: #FFFFFF;
+    padding: 40px 30px;
+    position: absolute;
+    top: 276px;
+    width: 203px;
+
+}
+.section_img1  > figure > figcaption > small{
+
+}
+.section_img1 > address{
+    background: black;
+    color: white;
+    padding: 40px 30px;
+    position: relative;
+    top: -139px;
+}
+
+/******* section img 2*******/
+.section_img2{
+    margin-left: 30px;
+    margin-right: 175px;
+}
+.section_img2  > figure{
+    position: relative;
+}
+.section_img2  > figure > img{
+    margin-top: -15px;
+}
+.section_img2  > figure > figcaption{
+    background: #000000;
+    color: #FFFFFF;
+    padding: 40px 30px;
+    position: absolute;
+    top: 287px;
+    left: 12px;
+    width: 202px;
+
+}
+.section_img2  > figure > figcaption > small{
+
+}
+.section_img2 > address{
+    background: black;
+    color: white;
+    padding: 40px 30px;
+    position: relative;
+    top: -151px;
+    width: 202px;
+    left: 12px;
+}
+
+/***** section 3
+===============================*****/
+.section_3_wrap{
+    background-color: #F2F2F2;
+    padding: 130px;
+}
+.section_3_wrapper{
+    width: 1120px;
+}
+/********section_0_icon1*******/
+.section_0_icon1{
+    width:230px;
+}
+.section_0_icon1 > figure {}
+.section_0_icon1 > figure > img{
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+
+.section_0_icon1 > figure > figcaption{
+    text-align: center;
+}
+/******** section_0_icon2*******/
+.section_0_icon2{
+    width:230px;
+}
+.section_0_icon2 > figure > img{
+    margin-left: 50px;
+    margin-bottom: 45px;
+}
+
+/**** footer
+=============================****/
+footer{
+    background-color: black;
+}
+.footer_wrapper{
+    width:1120px;
+    padding: 65px;
+}
+.footer_wrapper > nav{}
+.footer_wrapper > nav > ul {}
+.footer_wrapper > nav > ul > li {
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    color:white;
+}
